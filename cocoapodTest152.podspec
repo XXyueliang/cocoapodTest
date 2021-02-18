@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "BluetoothFramework", "BluetoothFramework/**/*.{h,m}"
   spec.exclude_files = "BluetoothFramework/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+   spec.public_header_files = "cocoapodTest152/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
