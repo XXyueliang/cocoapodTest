@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "cocoapodTest152"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "test cocoapod"
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-   spec.platform     = :ios, "11.0"
+   spec.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "BluetoothFramework", "BluetoothFramework/**/*.{h,m}"
   spec.exclude_files = "BluetoothFramework/Exclude"
 
-   spec.public_header_files = "cocoapodTest152/**/*.h"
+   spec.public_header_files = "BluetoothFramework/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
