@@ -307,7 +307,7 @@ extension XYCBBase: CBPeripheralDelegate {
     
     func peripheralIsReady(toSendWriteWithoutResponse peripheral: CBPeripheral) {
         printXY(#function, obj: self, line: #line)
-        printXY(peripheral.canSendWriteWithoutResponse, obj: self, line: #line)
+//printXY(peripheral.canSendWriteWithoutResponse, obj: self, line: #line)
     }
     
     
